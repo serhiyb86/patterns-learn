@@ -1,0 +1,5 @@
+one more time to study:
+
+proxy, rmi - more deeply
+interpreter
+visitor

@@ -1,10 +1,10 @@
 package creational.factory;
 
-public class FeedbackXMLDisplayService extends DisplayService{
+public class FeedbackXMLDisplayService extends DisplayService {
 
-	@Override
-	public XMLParser getParser() {
-		return new FeedbackXML();
-	}
+    @Override
+    public XMLParser getParser() {
+        return new FeedbackXMLParser();
+    }
 
 }

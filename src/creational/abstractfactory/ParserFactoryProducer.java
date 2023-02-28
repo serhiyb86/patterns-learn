@@ -2,19 +2,20 @@ package creational.abstractfactory;
 
 public final class ParserFactoryProducer {
 
-	private ParserFactoryProducer(){
-		throw new AssertionError();
-	}
+    private ParserFactoryProducer() {
+        throw new AssertionError();
+    }
 
-	public static AbstractParserFactory getFactory(String factoryType){
-		
-		switch(factoryType)
-		{
-			case "NYFactory": return new NYParserFactory();
-			case "TWFactory": return new TWParserFactory();
-		}
+    public static AbstractParserFactory getFactory(String factoryType) {
 
-		return null;
-	}
+        switch (factoryType) {
+            case "NYFactory":
+                return new NYParserFactory();
+            case "TWFactory":
+                return new TWParserFactory();
+        }
+
+        return null;
+    }
 
 }
