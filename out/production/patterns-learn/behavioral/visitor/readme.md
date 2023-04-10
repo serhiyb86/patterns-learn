@@ -1,1 +1,1 @@
-to integrate some code into another classes
+Vositor devides functionality and object
